@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Inspiring Quotes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Inspiring Quotes</h1>
+    <p id="quote">Loading...</p>
+
+    <div class="buttons">
+      <button onclick="nextQuote()">Next Quote</button>
+      <button onclick="shareQuote()">Share</button>
+      <button onclick="addFavorite()">❤️ Favorite</button>
+      <button onclick="viewFavorites()">View Favorites</button>
+    </div>
+
+    <div id="favorites" class="hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
